@@ -1,0 +1,100 @@
+		/*menu*/
+nav.navbar{
+	background-color: #7EAC03;
+	margin: 0% !important;
+}
+nav a{
+	color: #F7F844;
+}
+ul.nav{
+	margin-left: 10%;
+}
+span.icon-bar{
+	background-color: #F7F844;
+}
+.container-fluid{
+	padding: 0% !important;
+}
+		/*section 1*/
+#bg-ale{
+	background-image: url("../img/ale.jpg");
+	background-size: 100% 100%;
+}
+.titulo{
+	font-family: 'Delius', cursive;
+}
+.texto{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+		/*section 2 sobre mi*/
+#sobre_mi{
+	background-image: url("../img/sobre-mi.jpg");
+	background-size: 100% 100%;
+}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      margin: auto;
+  }
+ #orng{
+ 	background-color: #FED385;
+ 	border-radius: 10px;
+ }
+ #habilidades>li{
+	list-style: none;
+	background-color: #F3B900;
+	margin: 1.5%;
+	border-radius: 10px;
+	letter-spacing: 5px;
+	color: #295A00;
+	font-weight: 500;
+} 	
+#habilidades>li:hover{
+	background-color: #295A00;
+	color: #F3B900;
+}
+		/*section projects*/
+#projects{
+	background-color: #F3B900;
+}
+div.images>img{
+	height: 212px;
+}
+hr{
+	width: 20%;
+	border: 3px solid;
+}
+#orange{
+	color: #F7A013;
+}
+#green{
+	color: #7EAD05;
+}
+		/*section contacto*/
+#contacto{
+	background-color: #345B00;
+}
+#yellow{
+	color: #F3F242;
+}
+	/*----------*/
+	/*pasar a js*/
+	p>a{
+		color: #333333;
+		font-size: 150px;
+	}
+	p>a:hover{
+		color: #F3B900;
+	}
+	/*pasar a js*/
+	/*----------*/
+#green2{
+	background-color: #122E0E;
+}
+		/*padding*/
+.pd-1{
+	padding: 1%;
+}
+.pd-2{
+	padding: 2%;
+}
