@@ -3,10 +3,12 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Mi portafolio</title>
+		<link rel="shortcut icon" href="img/favicon.ico">
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/shuffle.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/queries.css">
 		<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
 		<link href="https://fonts.googleapis.com/css?family=Delius" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700" rel="stylesheet">
@@ -14,7 +16,7 @@
 	<body>
 		<div class="container-fluid">
 			<header>
-				<nav class="navbar">
+				<nav class="navbar navbar-fixed-top">
 					<div class="container-fluid">
 						<div class="navbar-header">
 							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -22,24 +24,36 @@
 						        <span class="icon-bar"></span>
 						        <span class="icon-bar"></span>
 							</button>  
-							<a class="navbar-brand" href="#">WebSiteName</a>
+							<a href="#"><img id="logo" src="img/favicon.ico" alt="logotipo"></a>
 						</div>
 						<div class="collapse navbar-collapse" id="myNavbar">
 							<ul class="nav navbar-nav">
-								<li><a href=""><i class="fa fa-home" aria-hidden="true"></i> Inicio</a></li>
-								<li><a href=""><i class="fa fa-female" aria-hidden="true"></i> Sobre mí</a></li>
-								<li><a href=""><i class="fa fa-file-code-o" aria-hidden="true"></i> Mis proyectos</a></li>
-								<li><a href=""><i class="fa fa-user-circle-o" aria-hidden="true"></i> Contacto</a></li>
+								<li><a href="#bg-ale"><i class="fa fa-home" aria-hidden="true"></i> Inicio</a></li>
+								<li><a href="#sobre_mi"><i class="fa fa-female" aria-hidden="true"></i> Sobre mí</a></li>
+								<li><a href="#projects"><i class="fa fa-file-code-o" aria-hidden="true"></i> Mis proyectos</a></li>
+								<li><a href="#contacto"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Contacto</a></li>
 							</ul>
 						</div>	
 					</div>
 				</nav>
 			</header>
 			<!-- inicio -->
-			<section id="bg-ale">
-				<div class="row">
+			<section id="bg-ale" class="pd-t-5">
+				<div class="row pd-b-8">
+					<div class="col-xs-6">
+						
+					</div>
+					<div class="col-xs-6">
+						<h1 class="titulo text-center dark-red"><small class="dark-red">Alejandra</small><br>Escobar <hr></h1>
+						<h2 class="text-center texto texto-dev">Front-End Web <br><small class="texto-dev">Developer</small></h2>
+					</div>
+				</div>
+				<div class="row pd-b-5">
 					<div class="col-xs-12">
-						<h1 class="titulo">Ale</h1>
+						<blockquote class="text-center texto dark-red">
+							<p>"Sólo podemos ver poco del futuro, pero lo suficiente para darnos cuenta de que hay mucho que hacer"</p>
+							<footer>Alan Turing</footer>
+						</blockquote>
 					</div>
 				</div>
 			</section>
@@ -54,56 +68,65 @@
 				</div>
 				<div class="row">
 					<!-- Start carousel -->
-					<div class="col-xs-6">
-						<div id="myCarousel" class="carousel slide pd-2">
-						    <!-- Indicators -->
-						    <ol class="carousel-indicators">
-						      <li class="item1 active"></li>
-						      <li class="item2"></li>
-						      <li class="item3"></li>
-						      <li class="item4"></li>
-						      <li class="item5"></li>
-						    </ol>
+					<div class="col-xs-12 col-md-6">
+						<div class="row">
+							<div class="col-xs-12">
+								<h3 class="text-center texto">Mis intereses</h3>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-12">
+								<div id="myCarousel" class="carousel slide pd-2">
+								    <!-- Indicators -->
+								    <ol class="carousel-indicators">
+								      <li class="item1 active"></li>
+								      <li class="item2"></li>
+								      <li class="item3"></li>
+								      <li class="item4"></li>
+								      <li class="item5"></li>
+								    </ol>
 
-						    <!-- Wrapper for slides -->
-						    <div class="carousel-inner" role="listbox">
-						      <div class="item active">
-						        <img src="img/programmer.png" alt="programmer">
-						      </div>
+								    <!-- Wrapper for slides -->
+								    <div class="carousel-inner" role="listbox">
+								      <div class="item active">
+								        <img src="img/programmer.png" alt="programmer">
+								      </div>
 
-						      <div class="item">
-						        <img src="img/teacher-showing-on-whiteboard.png" alt="profesor">
-						      </div>
-						    
-						      <div class="item">
-						        <img src="img/sea-turtle.png" alt="animales">
-						      </div>
+								      <div class="item">
+								        <img src="img/teacher-showing-on-whiteboard.png" alt="profesor">
+								      </div>
+								    
+								      <div class="item">
+								        <img src="img/sea-turtle.png" alt="animales">
+								      </div>
 
-						      <div class="item">
-						        <img src="img/traveler-with-a-suitcase.png" alt="viajar">
-						      </div>
+								      <div class="item">
+								        <img src="img/traveler-with-a-suitcase.png" alt="viajar">
+								      </div>
 
-						      <div class="item">
-						        <img src="img/football.png" alt="soccer">
-						      </div>
-						    </div>
+								      <div class="item">
+								        <img src="img/football.png" alt="soccer">
+								      </div>
+								    </div>
 
-						    <!-- Left and right controls -->
-						    <a class="left carousel-control" href="#myCarousel" role="button">
-						      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-						      <span class="sr-only">Previous</span>
-						    </a>
-						    <a class="right carousel-control" href="#myCarousel" role="button">
-						      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-						      <span class="sr-only">Next</span>
-						    </a>
+								    <!-- Left and right controls -->
+								    <a class="left carousel-control" href="#myCarousel" role="button">
+								      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+								      <span class="sr-only">Previous</span>
+								    </a>
+								    <a class="right carousel-control" href="#myCarousel" role="button">
+								      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+								      <span class="sr-only">Next</span>
+								    </a>
+		  						</div>
+	  						</div>
   						</div>
 					</div>
 					<!-- End carousel -->
 					<!-- My description -->
-					<div class="col-xs-6 pd-2">
+					<div class="col-xs-12 col-md-6 pd-5">
 						<div id="orng">
-							<p class="pd-2">ABOUT ME</p>
+							<p class="pd-2">Soy una persona pro activa que se fija metas tanto a corto como a mediano y largo plazo, para cumplirlas, pongo mi mayor esfuerzo. Tengo un gran gusto por la tecnología y la aplicación de lógica para su comprensión, no obstante, también disfruto de viajar con motivos de entretenimiento y relajación, me apasiona conocer cosas nuevas y me encantan los animales. Me gusta mucho ayudar a las personas </p>
 						</div>
 					</div>
 					<!-- End my description -->
@@ -115,41 +138,41 @@
 				</div>
 				<div class="row">
 					<!-- Start Progress-bar -->
-					<div class="col-xs-6 pd-2">
+					<div class="col-xs-12 col-md-6 pd-5">
 						<p class="lead texto text-center">Habilidades técnicas</p>
 						<div class="progress">
 						    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-						      HTML5
+						      HTML5 (intermadio)
 						    </div>
   						</div>
   						<div class="progress">
 						    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-						      CSS
+						      CSS (intermedio)
 						    </div>
   						</div>
   						<div class="progress">
 						    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:40%">
-						      JAVASCRIPT
+						      JAVASCRIPT (básico)
 						    </div>
   						</div>
   						<div class="progress">
 						    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-						      BOOTSTRAP
+						      BOOTSTRAP (intermedio)
 						    </div>
   						</div>
   						<div class="progress">
-						    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:20%">
-						      GIT Y GITHUB
+						    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:30%">
+						      GIT Y GITHUB (básico)
 						    </div>
   						</div>
   						<div class="progress">
 						    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:35%">
-						      JQUERY
+						      JQUERY (básico)
 						    </div>
   						</div>
 					</div>
 					<!-- End Progress-bar -->
-					<div class="col-xs-6 pd-2">
+					<div class="col-xs-12 col-md-6 pd-5">
 						<p class="lead texto text-center">Habilidades socio-emocionales</p>
 						<ul id="habilidades">
 							<li class="pd-1 text-center texto">Puntual</li>
@@ -172,15 +195,43 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-xs-4">
+					<div class="col-xs-12 col-sm-4">
 						<div class="wrapper">
 							<div class="container">
 								<div data-si-mousemove-trigger="100" class="shuffle-me">
-    	      						<a href="http://blog.bucketlistly.com/post/86313792387/africa-part-1-exploring-soweto-on-a-bike-solo" class="info" target="_blank"><h1>Soweto on a Bike</h1><h2>Soloing Africa Part 1</h2></a>
+    	      						<a href="http://blog.bucketlistly.com/post/86313792387/africa-part-1-exploring-soweto-on-a-bike-solo" class="info" target="_blank"><h1>Kane Theme</h1><h2>Proyecto 1</h2></a>
 				    	      		<div class="images">
 						  	          	<img src="img/kane1.png">
 						  	          	<img src="img/kane2.png">
 						  	          	<img src="img/kane3.png">
+				  	        		</div>
+  	      						</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-4">
+						<div class="wrapper">
+							<div class="container">
+								<div data-si-mousemove-trigger="100" class="shuffle-me">
+    	      						<a href="http://blog.bucketlistly.com/post/86313792387/africa-part-1-exploring-soweto-on-a-bike-solo" class="info" target="_blank"><h1>Bussines</h1><h2>Proyecto 2</h2></a>
+				    	      		<div class="images">
+						  	          	<img src="img/bussines1.png">
+						  	          	<img src="img/bussines2.png">
+						  	          	<img src="img/bussines3.png">
+				  	        		</div>
+  	      						</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-4">
+						<div class="wrapper">
+							<div class="container">
+								<div data-si-mousemove-trigger="100" class="shuffle-me">
+    	      						<a href="http://blog.bucketlistly.com/post/86313792387/africa-part-1-exploring-soweto-on-a-bike-solo" class="info" target="_blank"><h1>Juilliard</h1><h2>Proyecto 3</h2></a>
+				    	      		<div class="images">
+						  	          	<img src="img/juilliard1.png">
+						  	          	<img src="img/juilliard2.png">
+						  	          	<img src="img/juilliard3.png">
 				  	        		</div>
   	      						</div>
 							</div>
@@ -200,17 +251,37 @@
 				<div class="row">
 					<div class="col-xs-4">
 						<p class="text-center">
-							<a href=""><i class="fa fa-github-square" aria-hidden="true"></i></a>
+							<a href="https://github.com/AlejandraEscobar3G" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
 						</p>
 					</div>
 					<div class="col-xs-4">
 						<p class="text-center">
-							<a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+							<a href="https://mx.linkedin.com/in/alejandra-escobar-rodríguez" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
 						</p>
 					</div>
 					<div class="col-xs-4">
 						<p class="text-center">
-							<a href=""><i class="fa fa-envelope" aria-hidden="true"></i></a>
+							<a data-toggle="modal" data-target="#myModal" href=""><i class="fa fa-envelope" aria-hidden="true"></i></a>
+									<!-- Modal -->
+								  <div class="modal fade" id="myModal" role="dialog">
+								    <div class="modal-dialog">
+								    
+								      <!-- Modal content-->
+								      <div class="modal-content">
+								        <div class="modal-header">
+								          <button type="button" class="close" data-dismiss="modal">&times;</button>
+								          <h4 class="modal-title">Correo Electrónico</h4>
+								        </div>
+								        <div class="modal-body">
+								          <p class="text-center">ale.fesico@gmail.com</p>
+								        </div>
+								        <div class="modal-footer">
+								          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								        </div>
+								      </div>
+								      
+								    </div>
+								  </div>
 						</p>
 					</div>
 				</div>
@@ -218,14 +289,14 @@
 			<!-- End contact -->
 			<footer id="green2">
 				<div class="row pd-1">
-					<div class="col-xs-4">
+					<div class="col-xs-6 col-md-4">
 						<p class="texto text-center">Alejandra Escobar Rodríguez</p>
 					</div>
-					<div class="col-xs-4">
+					<div class="col-xs-6 col-md-4">
 						<p class="texto text-center">2016 <span>&copy Copyright </span>Laboratoria</p>
 					</div>
 					
-					<div class="col-xs-4">
+					<div class="col-xs-12 col-md-4">
 						<p class="texto text-center">Teléfono: 55-35-02-51-12</p>
 					</div>
 				</div>
@@ -236,13 +307,5 @@
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>
 		<script type="text/javascript" src="js/jquery.shuffle-images.min.js"></script>
-		<script>
-			$(document).ready(function(){
-       $(".shuffle-me").shuffleImages({
-         target: ".images > img"
-       });
-		});
-		</script>
-		<script type="text/javascript" src="js/jquery.fittext.js"></script>
 	</body>
 </html>

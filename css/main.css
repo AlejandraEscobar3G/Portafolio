@@ -1,7 +1,10 @@
 		/*menu*/
+.row{
+	margin: 0% !important;
+}
 nav.navbar{
 	background-color: #7EAC03;
-	margin: 0% !important;
+	
 }
 nav a{
 	color: #F7F844;
@@ -15,17 +18,47 @@ span.icon-bar{
 .container-fluid{
 	padding: 0% !important;
 }
+img#logo{
+	height: 50px;
+	margin-left: 10px;
+}
+ul.nav a:hover{
+	background-color: #F7F844;
+	color: #7EAC03;
+}
 		/*section 1*/
+.pd-t-5{
+padding-top: 8%;
+}
+.pd-b-8{
+	padding-bottom: 6%;
+}
+h1, h1 hr{
+	width: 90%;	
+	margin-bottom: 2% !important;
+	border-bottom: 1px solid #D8832F;
+}
+h1 hr{
+	color: #D8832F;
+}
+.dark-red{
+	color: #BA4525 !important;
+}
 #bg-ale{
 	background-image: url("../img/ale.jpg");
 	background-size: 100% 100%;
 }
 .titulo{
 	font-family: 'Delius', cursive;
+	letter-spacing: 1px;
 }
 .texto{
 	font-family: 'Roboto', sans-serif;
 	color: white;
+}
+.texto-dev{
+	color: #F1BA4E !important;
+	letter-spacing: 2px;
 }
 		/*section 2 sobre mi*/
 #sobre_mi{
@@ -49,16 +82,23 @@ span.icon-bar{
 	color: #295A00;
 	font-weight: 500;
 } 	
+div#orng p{
+		color: #2C4A12;
+	}
 #habilidades>li:hover{
 	background-color: #295A00;
 	color: #F3B900;
+}
+h3{
+	letter-spacing: 5px;
 }
 		/*section projects*/
 #projects{
 	background-color: #F3B900;
 }
 div.images>img{
-	height: 212px;
+	height: 209px;
+	width: 100%;
 }
 hr{
 	width: 20%;
@@ -97,4 +137,10 @@ hr{
 }
 .pd-2{
 	padding: 2%;
+}
+.pd-5{
+	padding: 5%;
+}
+.pd-b-5{
+	padding-bottom: 5%;
 }

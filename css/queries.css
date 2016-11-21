@@ -1,0 +1,80 @@
+/*phones*/
+@media (max-width: 768px) { 
+	p>a{
+		font-size: 70px;
+		}
+	h1.titulo{
+		font-size: 40px;
+	}
+	blockquote{
+	font-size: 15px;
+	}
+	h2.texto-dev{
+		font-size: 20px;
+	}
+	div#orng p{
+		font-size: 15px;
+		letter-spacing: 2px;
+		text-align: justify;
+	}
+ }
+ /*tablets*/
+@media (min-width: 768px) and (max-width: 992px) {
+	p>a{
+		font-size: 100px;	
+	}
+	h1.titulo{
+		font-size: 60px;
+	}
+	blockquote{
+	font-size: 20px;
+	}
+	h2.texto-dev{
+		font-size: 30px;
+	}
+	div#orng p{
+		font-size: 17px;
+		letter-spacing: 2px;
+		text-align: justify;
+	}
+}
+/*desktop*/
+@media (min-width: 992px) and (max-width: 1200px) { 
+	p>a{
+		font-size: 120px;
+	}
+	h1.titulo{
+		font-size: 90px;
+	}
+	blockquote{
+	font-size: 20px;
+	}
+	h2.texto-dev{
+		font-size: 35px;
+	}
+	div#orng p{
+		font-size: 18px;
+		letter-spacing: 2px;
+		text-align: justify;
+	}
+ }
+ /*others*/
+@media (min-width: 1200px) { 
+	p>a{
+		font-size: 130px;
+	}
+	h1.titulo{
+		font-size: 110px;
+	}
+	blockquote{
+	font-size: 25px;
+	}
+	h2.texto-dev{
+		font-size: 35px;
+	}
+	div#orng p{
+		font-size: 18px;
+		letter-spacing: 2px;
+		text-align: justify;
+	}
+ }
