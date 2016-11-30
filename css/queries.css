@@ -17,6 +17,10 @@
 		letter-spacing: 2px;
 		text-align: justify;
 	}
+	#mifoto{
+		height: 250px;
+		width: 50%;
+	}
  }
  /*tablets*/
 @media (min-width: 768px) and (max-width: 992px) {
@@ -36,6 +40,10 @@
 		font-size: 17px;
 		letter-spacing: 2px;
 		text-align: justify;
+	}
+	#mifoto{
+		height: 300px;
+		width: 60%;
 	}
 }
 /*desktop*/
@@ -57,6 +65,9 @@
 		letter-spacing: 2px;
 		text-align: justify;
 	}
+	#mifoto{
+		height: 400px;
+	}
  }
  /*others*/
 @media (min-width: 1200px) { 
@@ -76,5 +87,8 @@
 		font-size: 18px;
 		letter-spacing: 2px;
 		text-align: justify;
+	}
+	#mifoto{
+		height: 500px;
 	}
  }
