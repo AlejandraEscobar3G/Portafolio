@@ -18,7 +18,7 @@
 		text-align: justify;
 	}
 	#mifoto{
-		height: 250px;
+		/*height: 250px;*/
 		width: 50%;
 	}
  }
@@ -42,8 +42,8 @@
 		text-align: justify;
 	}
 	#mifoto{
-		height: 300px;
-		width: 60%;
+		/*height: 300px;*/
+		max-width: 30% ;
 	}
 }
 /*desktop*/
@@ -66,7 +66,7 @@
 		text-align: justify;
 	}
 	#mifoto{
-		height: 400px;
+		max-width: 30%;
 	}
  }
  /*others*/
@@ -89,6 +89,7 @@
 		text-align: justify;
 	}
 	#mifoto{
-		height: 500px;
+		max-width: 40%;
+
 	}
  }
