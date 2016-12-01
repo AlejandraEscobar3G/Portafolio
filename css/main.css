@@ -6,10 +6,7 @@ nav.navbar{
 	background-color: #7EAC03;	
 }
 #mifoto{
-	width: 90%;
 	border-radius: 10px;
-	display: block;
-	margin: auto;
 }
 nav a{
 	color: #F7F844;
@@ -42,6 +39,8 @@ h1, h1 hr{
 	width: 90%;	
 	margin-bottom: 2% !important;
 	border-bottom: 1px solid #D8832F;
+	display: block;
+	margin: auto;
 }
 h1 hr{
 	color: #D8832F;
@@ -67,7 +66,8 @@ h1 hr{
 }
 		/*section 2 sobre mi*/
 #sobre_mi{
-	background-image: url("../img/sobre-mi.jpg");
+	background-image: url("../img/conejos.jpg");
+	/*background-color: #CBE32D;*/
 	background-size: 100% 100%;
 }
 .carousel-inner > .item > img,
@@ -90,16 +90,26 @@ h1 hr{
 div#orng p{
 		color: #2C4A12;
 	}
-#habilidades>li:hover{
+/*#habilidades>li:hover{
 	background-color: #295A00;
 	color: #F3B900;
-}
+}*/
 h3{
 	letter-spacing: 5px;
 }
+		/*section skills*/
+#skills{
+	background-color: #F2ECEE;	
+}
+.text-orange{
+	color: #F3B900;
+}
+#dark-green{
+	 color: #295A00
+}
 		/*section projects*/
 #projects{
-	background-color: #F3B900;
+	background-color: #FCBA4A;
 }
 div.images>img{
 	height: 209px;
@@ -109,7 +119,7 @@ hr{
 	width: 20%;
 	border: 3px solid;
 }
-#orange{
+.orange{
 	color: #F7A013;
 }
 #green{
@@ -150,6 +160,14 @@ hr{
 	padding-bottom: 5%;
 }
 .pd-b-t{
+	padding-bottom: 8%;
+	padding-top: 5%;
+}
+.pt-3{
+	padding-top: 3%;
+}
+.pd-t-b{
+	padding-top: 9%;
 	padding-bottom: 4%;
-	padding-top: 4%;
+
 }
