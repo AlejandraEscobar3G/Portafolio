@@ -84,11 +84,7 @@ blockquote{
 	background-color: #F08703;
 	background-size: 100% 100%;
 }
-.carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-      margin: auto;
-  }
- #orng{
+#orng{
  	background-color: #FED385;
  	border-radius: 10px;
  }
@@ -98,13 +94,16 @@ blockquote{
  }
  #habilidades>li{
 	list-style: none;
-	background-color: #F3B900;
+	background-color:#295A00 ;
 	margin: 1.5%;
 	border-radius: 10px;
 	letter-spacing: 5px;
-	color: #295A00;
+	color: #F4C806;
 	font-weight: 500;
 } 	
+#habilidades{
+	padding-left: 0;
+}
 div#orng p{
 		color: #2C4A12;
 	}
@@ -117,10 +116,10 @@ h3{
 }
 		/*section skills*/
 #skills{
-	background-color: #F2ECEE;	
+	background-color: #A7A80D;	
 }
 .text-orange{
-	color: #F3B900;
+	color: #714901;
 }
 #dark-green{
 	 color: #295A00
