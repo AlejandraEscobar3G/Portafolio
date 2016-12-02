@@ -4,7 +4,6 @@
     	margin: 0 auto; 
     	overflow: hidden;
     }
-    
     a {
       text-decoration: none;
     }
@@ -47,7 +46,7 @@
       display: block;
       position: relative;
       float: left;
-      height: 209px;
+      height: 209px;  
     }
 
     .info {
@@ -67,7 +66,7 @@
 
     .info h1 {
       font-weight: bold;
-      color: white;
+      color: #F4C806;
       font-size: 20px;
       margin: 55px 0 0;
       text-transform: uppercase;
@@ -81,7 +80,7 @@
     }
     .info h2 {
       margin-top: 0;
-      color: white;
+      color: #F4C806;
       font-size: 14px;
       font-family: georgia;
       font-style: italic;
