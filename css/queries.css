@@ -4,13 +4,14 @@
 		font-size: 70px;
 		}
 	h1.titulo{
-		font-size: 40px;
+		font-size: 50px;
 	}
 	blockquote{
-	font-size: 15px;
+	font-size: 18px;
+	margin-top: 10% !important;
 	}
 	h2.texto-dev{
-		font-size: 20px;
+		font-size: 25px;
 	}
 	div#orng p{
 		font-size: 15px;
@@ -20,6 +21,7 @@
 	#mifoto{
 		/*height: 250px;*/
 		width: 50%;
+		margin-top: 50px;
 	}
  }
  /*tablets*/
@@ -43,7 +45,8 @@
 	}
 	#mifoto{
 		/*height: 300px;*/
-		max-width: 30% ;
+		max-width: 100% ;
+		margin-top: 25px;
 	}
 }
 /*desktop*/
@@ -52,7 +55,7 @@
 		font-size: 120px;
 	}
 	h1.titulo{
-		font-size: 90px;
+		font-size: 70px;
 	}
 	blockquote{
 	font-size: 20px;
@@ -66,7 +69,12 @@
 		text-align: justify;
 	}
 	#mifoto{
-		max-width: 30%;
+		max-width: 100%;
+		margin-top: 20px;
+	}
+	h2.subtitulo{
+		font-size: 10px;
+		padding-top: 75px;
 	}
  }
  /*others*/
@@ -75,10 +83,10 @@
 		font-size: 130px;
 	}
 	h1.titulo{
-		font-size: 110px;
+		font-size: 80px;
 	}
 	blockquote{
-	font-size: 25px;
+	font-size: 20px;
 	}
 	h2.texto-dev{
 		font-size: 35px;
@@ -90,6 +98,11 @@
 	}
 	#mifoto{
 		max-width: 100%;
+		margin-top: 3%;
 
+	}	
+	h2.subtitulo{
+		font-size: 40px;
+		padding-top: 75px;
 	}
  }

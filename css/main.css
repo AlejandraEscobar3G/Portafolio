@@ -4,17 +4,18 @@
 }
 nav.navbar{
 	background-color: #3E1E03;
-	padding: 1%;	
+	padding: 1.5%;	
 	opacity: 0.8;
 }
 .rgba{
 	padding: 20px;
 	/*background-color: rgba(20,178,120,.6) !important;*/
-	background-color: rgba(128,128,128, 0.6);
+	background-color: rgba(12, 2, 2, 0.71);
 	border-radius: 10px;
+	margin-top: 3%;
 }
 #mifoto{
-	border-radius: 10px;
+	border-radius: 10px !important;
 }
 nav a{
 	color: white;
@@ -32,9 +33,10 @@ img#logo{
 	height: 50px;
 	margin-left: 10px;
 }
-ul.nav a:hover{
-	background-color: #F7F844;
-	color: #3E1E03;
+ul.nav a:hover {
+    background-color: #275305;
+    color: #FFFFFF;
+    font-weight: bold;
 }
 		/*section 1*/
 .pd-t-5{
@@ -43,19 +45,20 @@ padding-top: 8%;
 .pd-b-8{
 	padding-bottom: 6%;
 }
-h1, h1 hr{
-	width: 90%;	
-	margin-bottom: 2% !important;
+h1{
 	display: block;
 	margin: auto;
 }
-h1 hr{
+h1 hr{ 
+	border: 1px solid #F08703;
+	width: 55%;	
+	margin-bottom: 2% !important;
 	color: #D8832F;
 }
 .dark-red{
 	color: #BA4525 !important;
 }
-#bg-ale{
+.bg-ale{
 	background-image: url("../img/bg-home.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -69,14 +72,16 @@ h1 hr{
 	font-family: 'Roboto', sans-serif;
 	color: white;
 }
+blockquote{
+	border-left: none !important; 
+}
 .texto-dev{
 	color: #F1BA4E !important;
 	letter-spacing: 2px;
 }
 		/*section 2 sobre mi*/
 #sobre_mi{
-	background-image: url("../img/conejos.jpg");
-	/*background-color: #CBE32D;*/
+	background-color: #F08703;
 	background-size: 100% 100%;
 }
 .carousel-inner > .item > img,
@@ -86,6 +91,10 @@ h1 hr{
  #orng{
  	background-color: #FED385;
  	border-radius: 10px;
+ }
+ img.img-thumbnail{
+ 	width: 304px !important; 
+ 	height: 150px !important;
  }
  #habilidades>li{
 	list-style: none;
@@ -117,9 +126,6 @@ h3{
 	 color: #295A00
 }
 		/*section projects*/
-#projects{
-	background-color: #FCBA4A;
-}
 div.images>img{
 	height: 209px;
 	width: 100%;
@@ -162,6 +168,9 @@ hr{
 .pd-2{
 	padding: 2%;
 }
+.pd-3{
+	padding: 3%;
+}
 .pd-5{
 	padding: 5%;
 }
@@ -169,15 +178,13 @@ hr{
 	padding-bottom: 5%;
 }
 .pd-b-t{
-	padding-bottom: 8%;
-	padding-top: 5%;
+	padding-bottom: 5%;
 }
 .pt-3{
 	padding-top: 3%;
 }
 .pd-t-b{
 	padding-top: 9%;
-	padding-bottom: 2%;
 }
 .mt-5{
 	margin-top: 5%;
