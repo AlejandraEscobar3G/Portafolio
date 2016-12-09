@@ -15,7 +15,9 @@ nav.navbar{
 	margin-top: 3%;
 }
 #mifoto{
-	border-radius: 10px !important;
+	border-radius: 10px;
+	padding: 18px;
+	border: 1px solid white;
 }
 nav a{
 	color: white;
@@ -30,7 +32,7 @@ span.icon-bar{
 	padding: 0% !important;
 }
 img#logo{
-	height: 50px;
+	height: 60px;
 	margin-left: 10px;
 }
 ul.nav a:hover {
@@ -85,8 +87,9 @@ blockquote{
 	background-size: 100% 100%;
 }
 #orng{
- 	background-color: #FED385;
+ 	background-color: #F4C806;
  	border-radius: 10px;
+ 	padding: 15px;
  }
  img.img-thumbnail{
  	width: 304px !important; 
@@ -98,14 +101,15 @@ blockquote{
 	margin: 1.5%;
 	border-radius: 10px;
 	letter-spacing: 5px;
-	color: #F4C806;
+	color: white;
 	font-weight: 500;
-} 	
+}
+. 	
 #habilidades{
 	padding-left: 0;
 }
 div#orng p{
-		color: #2C4A12;
+		color: black;
 	}
 /*#habilidades>li:hover{
 	background-color: #295A00;
@@ -129,12 +133,22 @@ div.images>img{
 	height: 209px;
 	width: 100%;
 }
+.progress{
+	height: 30px;
+	margin: 1.6%;
+}
+.progress-bar>p{
+	font-size: 14px;
+}
 hr{
 	width: 20%;
 	border: 1px solid;
 }
 .orange{
 	color: #F7A013;
+}
+#amarillo{
+	color: #F4C806;
 }
 #green{
 	color: #7EAD05;
@@ -149,42 +163,14 @@ hr{
 	/*----------*/
 	/*pasar a js*/
 	p>a{
-		color: #333333;
+		color: #F08703;
 		font-size: 150px;
 	}
 	p>a:hover{
-		color: #F3B900;
+		color: #F4C806;
 	}
 	/*pasar a js*/
 	/*----------*/
 #green2{
 	background-color: #122E0E;
-}
-		/*padding*/
-.pd-1{
-	padding: 1%;
-}
-.pd-2{
-	padding: 2%;
-}
-.pd-3{
-	padding: 3%;
-}
-.pd-5{
-	padding: 5%;
-}
-.pd-b-5{
-	padding-bottom: 5%;
-}
-.pd-b-t{
-	padding-bottom: 5%;
-}
-.pt-3{
-	padding-top: 3%;
-}
-.pd-t-b{
-	padding-top: 9%;
-}
-.mt-5{
-	margin-top: 5%;
 }
