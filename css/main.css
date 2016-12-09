@@ -81,9 +81,9 @@ blockquote{
 	color: #F1BA4E !important;
 	letter-spacing: 2px;
 }
-.wrapper{
-	padding-left: 15%;
-	padding-right: 15%;
+#wrapper{
+	padding-left: 17%;
+	padding-right: 17%;
 }
 		/*section 2 sobre mi*/
 #sobre_mi{
